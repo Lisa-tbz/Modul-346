@@ -1,4 +1,0 @@
-
-
-Die SQL-Abfrage SELECT Host, User FROM mysql.user zeigt alle existierenden MySQL-Benutzer sowie die Hosts, von denen aus sie sich anmelden dürfen. Damit kann man überprüfen, 
-ob der Benutzer admin korrekt angelegt wurde und von überall (%) zugreifen darf.

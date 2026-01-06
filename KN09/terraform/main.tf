@@ -38,8 +38,6 @@ resource "aws_instance" "db" {
 
   vpc_security_group_ids = [aws_security_group.db_sg.id]
 
-  # Optional: wenn du ein Key-Pair über AWS benutzt
-  # key_name = "mein-keypair"
 
   user_data = <<-EOF
     #cloud-config
